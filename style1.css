@@ -14,7 +14,7 @@ body{
 #Logo{
     line-height: 3;
     font-size: 25px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-transform: capitalize;
     font-weight: bold;
     letter-spacing: 1.5px;
@@ -23,7 +23,7 @@ body{
     padding: 10px;
 }
 nav{
-    background-color: rgb(255, 149, 61);
+    background-color: rgb(3, 3, 3);
 }
 nav ul{
     float: right;
@@ -69,7 +69,7 @@ nav ul li a:hover{
         position: fixed;
         width: 100%;
         height: 100%;
-        top: 10%;
+        top: 11%;
         transition: all .5s;
         text-align: center;
         z-index: 1;
@@ -77,6 +77,10 @@ nav ul li a:hover{
     nav ul li{
         display: block;
         margin-top: 40px;
+        padding: 0px;
+    }
+    nav ul li a{
+        background-color: black;
     }
     #checkbtn{
         display: block;
