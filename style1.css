@@ -69,7 +69,7 @@ nav ul li a:hover{
         position: fixed;
         width: 100%;
         height: 100%;
-        top: 11%;
+        top: 100%;
         transition: all .5s;
         text-align: center;
         z-index: 1;
@@ -86,7 +86,7 @@ nav ul li a:hover{
         display: block;
     }
     #check:checked ~ ul{
-        top:100%;
+        top:11%;
     }
     
 }
